@@ -52,7 +52,7 @@ public class Solution2 {
 		return head.next;
 	}
 
-	private static void printNodeValue(ListNode temp) {
+	public static void printNodeValue(ListNode temp) {
 		int i=0;
 		while (temp != null && i<10) {
 			i++;
